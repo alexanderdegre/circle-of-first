@@ -20,4 +20,27 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  welcome:
+    navigation:
+      disabled: "currently unavailable"
+      auth:
+        name: "Auth"
+        description: "Login or register in order to access Circle of First services."
+      voice:
+        name: "Voice"
+        description: "Connect to the Mumble server to better coordinate."
+      irc:
+        name: "IRC"
+        description: "Hang out and chat old-school style with IRC."
+      wiki:
+        name: "Wiki"
+        description: "Share tutorials, guides, or create resources."
+      changelog:
+        name: "Changelog"
+        description: "See what's happened with Circle of First lately."
+      status:
+        name: "Status"
+        description: "Check uptime of the various services."
+      members:
+        name: "Members"
+        description: "See who else is a part of Circle of First."

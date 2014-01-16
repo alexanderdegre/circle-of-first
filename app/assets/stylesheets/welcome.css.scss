@@ -1,0 +1,70 @@
+// Place all the styles related to the Welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+$color-logo-red: #d01f27;
+
+.col-logo {
+  text-align: center;
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Pompiere';
+    color: $color-logo-red;
+  }
+}
+
+.row.row-divider {
+  padding: 10px 0 20px 0;
+  hr {
+    border-color: $color-logo-red;
+  }
+}
+
+.row.row-main-nav {
+  text-align: center;
+  > div {
+
+  }
+  .item {
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    &:hover {
+    }
+    a {
+      color: black;
+      height: 100%;
+      width: 100%;
+      display: block;
+      padding: 30px;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+  
+  .item.disabled {
+    border-color: #888;
+    border-style: dashed;
+    &:hover {
+      border-style: dashed;
+    }
+    a {
+      color: #888;
+      &:hover {
+        cursor: default;
+      }
+    }
+  }
+  
+
+  i {
+    font-size: 46px;
+  }
+  h3 {
+    text-transform: uppercase;
+    font-size: 24px;
+    font-family: 'Pompiere';
+    font-weight: bold;
+  }
+}

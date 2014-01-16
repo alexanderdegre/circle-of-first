@@ -1,0 +1,16 @@
+fr:
+  welcome:
+    navigation:
+      disabled: "Indisponible pour le moment"
+      auth:
+        name: "Auth"
+        description: "Connectez ou inscrivez-vous pour accéder au contenu Circle of First."
+      voice:
+        name: "Voice"
+        description: "Connectez-vous au serveur mumble pour une meilleure organisation."
+      irc:
+        name: "IRC"
+        description: "Relaxez et discutez à l'ancienne sur IRC."
+      wiki:
+        name: "Wiki"
+        description: "Partagez des tutoriels, guides, ou créez des ressources."
