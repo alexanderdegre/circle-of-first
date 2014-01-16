@@ -1,4 +1,4 @@
-fr:
+﻿fr:
   welcome:
     navigation:
       disabled: "Indisponible pour le moment"
@@ -6,7 +6,7 @@ fr:
         name: "Auth"
         description: "Connectez ou inscrivez-vous pour accéder au contenu Circle of First."
       voice:
-        name: "Voice"
+        name: "Voix"
         description: "Connectez-vous au serveur mumble pour une meilleure organisation."
       irc:
         name: "IRC"
@@ -14,3 +14,12 @@ fr:
       wiki:
         name: "Wiki"
         description: "Partagez des tutoriels, guides, ou créez des ressources."
+      changelog:
+        name: "Changelog"
+        description: "Tenez-vous au courant des derniers événements chez Circle of First."
+      status:
+        name: "Statut"
+        description: "Consultez l'uptime des différents services."
+      members:
+        name: "Membres"
+        description: "Découvrez les autres membres de Circle of First."
